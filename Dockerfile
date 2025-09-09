@@ -1,4 +1,4 @@
-ARG label=edge
+ARG label=15
 
 FROM ghcr.io/wg-easy/wg-easy:${label}
 
