@@ -1,4 +1,4 @@
-ARG label=nightly
+ARG label=edge
 
 FROM ghcr.io/wg-easy/wg-easy:${label}
 
