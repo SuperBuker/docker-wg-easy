@@ -40,7 +40,7 @@ jobs:
         id: baseupdatecheck
         uses: lucacome/docker-image-update-checker@v2.0.0
         with:
-          base-image: ghcr.io/wg-easy/wg-easy:edge
+          base-image: ghcr.io/wg-easy/wg-easy:15
           image: ghcr.io/${{ env.GHCR_USERNAME }}/wg-easy:latest
           platforms: "linux/${{ matrix.arch }}"
         if: github.event_name == 'schedule'
