@@ -1,4 +1,4 @@
-ARG label=15
+ARG label=14
 
 FROM ghcr.io/wg-easy/wg-easy:${label}
 
